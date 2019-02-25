@@ -1,0 +1,11 @@
+command is just a program sitting in our PATH folder, whenever we type it shell interprets i.e search for that command in the PATH folders and executes it with option or inputs provided
+
+command structure->
+
+$command options input
+
+
+know command location->
+$which command
+e.g
+$which echo
