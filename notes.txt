@@ -13,3 +13,28 @@ know command location->
 $which command
 e.g
 $which echo
+
+manual in linux system(divided into 8 section-> user commands, file structure, adminstrative commands..etc)
+search in manual
+e.g
+$man -k which
+$man -k "list directory contents"
+man MANUALSECTION COMMAND_NAME
+e.g
+$man 1 which
+
+For 1st section command man just use
+or man which
+
+[] => optional in manual pages 
+<> => mandotary in manual pages
+| => OR i.e you can use either of the two option
+... => can use more than once(e.g multiple arguments or inputs)
+
+Few commands dont have man pages,
+e.g man cd -> No man found
+
+so there is help command,
+$help cd
+ouput similar to man page,
+so if command is right and man page not there, try search using help command
